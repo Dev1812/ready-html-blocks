@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pop-up dialog box</title>
+</head>
+<body>
+
+
+
+
+
+
+<style type="text/css">
+  
+.photo-view__background_gray{position:fixed;top:0;left:0;right:0;bottom:0;background-color:#696969;opacity:.54;z-index:90}
+.photo-view{position:fixed;top:0;left:0;right:0;bottom:0;z-index:100}
+.photo-view_wrap{width:500px;margin:auto;padding-top:111px}
+.photo-view_img_wrap{box-shadow:0 0 46px #000}
+.photo-view__img{width:500px}
+.photo-view__close{position:fixed;right:0;top:0;bottom:0;cursor:pointer;z-index:2000}
+.photo-view_info{background-color:#FFF;padding:14px;margin-top:-5px;min-height:44px;
+    border: 1px solid #DDDD}
+.photo-view__wrap{width:210px;cursor:pointer;text-align:right;padding-right:54px;margin-top:54px;color:#FFF}
+.photo-view_info_wrap{float:left}
+.photo-view_info_photo{width:39px;height:39px}
+.photo-view__initials_wrap{margin-left:51px}
+.photo-view__title{font-size:13px}
+.photo-view__info_initials_wrap{cursor:pointer;padding:3px 0}
+.photo-view__info_initials{font-size:10px;text-transform:uppercase;font-weight:700;margin-top:4px;cursor:pointer}
+.photo-view__img_gl_wrap{position:relative}
+.photo-view__arrows_wrap{position:absolute;top:0;right:0;bottom:4px;cursor:pointer;padding:0 37px 17px 4px;position:absolute;top:0;left:0;bottom:4px;cursor:pointer;padding:0 4px 17px 37px}
+.photo-view__arrows_wrap_1{position:absolute;top:0;left:0;bottom:4px;cursor:pointer;padding:0 65px 17px 37px;z-index:20}
+.photo-view__arrows_wrap_2{color:#FFF;padding:112px 0}
+.photo-view__arrows_background_gray{position:absolute;top:0;left:0;bottom:4px;cursor:pointer;padding:0 59px 17px 37px;background-color:transparent;opacity:.375;z-index:10}
+.photo-view__arrows_wrap_1_2{position:absolute;top:0;right:0;bottom:4px;cursor:pointer;padding:0 37px 17px 4px;z-index:20}
+.photo-view__arrows_wrap_2_2{color:#FFF;padding:112px 0}
+.photo-view__arrows_background_gray_2{position:absolute;top:0;right:0;bottom:4px;cursor:pointer;padding:0 59px 17px 37px;background-color:transparent;opacity:.375;z-index:10}
+.photo-view__arrows_wrap_gl{color:#FFF;padding:112px 0}
+
+
+
+.photo-view__arrows_image{position:absolute;top:0;bottom:0;margin:auto;padding:0 27px}
+.photo-view__arrows_wrap_1:hover{background-color:#000;background-color:#000;opacity:.35;transition:background-color 0.7s ease}
+.photo-view__arrows_wrap_1_2:hover{background-color:#000;opacity:.35;padding:2px 81px 15px 4px;transition:background-color 0.7s ease}
+</style>
+
+<div class="photo-view" id="photo-view">
+  <div class="photo-view_wrap">
+    <div class="photo-view_img_wrap"> 
+
+      <div class="photo-view__img_gl_wrap">
+        <div id="photo_wrap">
+          <img src="images/393721-svetik.jpg" class="photo-view__img">
+        </div>    
+        <div class="photo-view__arrows_wrap_1">
+          <div class="photo-view__arrows_wrap_2">
+            <img class="photo-view__arrows_image" src="images/icons/arrow_right.png" style="left:0;transform:rotate(180deg);">
+          </div>
+        </div>
+   
+        <div class="photo-view__arrows_background_gray">
+        </div>
+  
+
+
+        <div class="photo-view__arrows_wrap_1_2">
+          <div class="photo-view__arrows_wrap_2_2">
+          <img src="images/icons/arrow_right.png" class="photo-view__arrows_image" style="right: 0;">
+          </div>
+        </div>
+   
+       <div class="photo-view__arrows_background_gray_2">
+        </div>
+  
+
+      </div>
+
+    </div>
+
+    <div class="photo-view_info">
+      <div class="photo-view_info_wrap">
+        <img class="photo-view_info_photo" id="photo-view_info_photo" src="images/800x800.png">
+      </div>
+      <div class="photo-view__initials_wrap">
+        <div class="photo-view__title">Timtd Tumhg</div> 
+        <div class="photo-view__info_initials_wrap">
+          <div class="photo-view__info_initials">Подписаться</div>
+        </div>
+
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+
+</body>
+</html>
